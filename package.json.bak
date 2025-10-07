@@ -3,16 +3,15 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-        "@vercel/speed-insights": "^1.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "^5.0.1"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": true,
         "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "test": true,
+        "eject": true
     },
     "browserslist": {
         "production": [
