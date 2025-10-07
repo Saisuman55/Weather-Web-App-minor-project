@@ -1,0 +1,10 @@
+
+body { margin:0; font-family: Arial, sans-serif; background:#f0f2f5; display:flex; justify-content:center; align-items:center; min-height:100vh; }
+.weather-card { background:#fff; padding:28px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); width:520px; }
+.controls { display:flex; gap:8px; margin-bottom:12px; }
+input { flex:1; padding:10px; border-radius:8px; border:1px solid #e6e9ee; }
+button { padding:10px 14px; border-radius:8px; background:#1976d2; color:#fff; border:none; cursor:pointer; }
+.muted { color:#666; }
+.error { color:#d32f2f; }
+.weather-display { margin-top:12px; }
+.weather-icon { width:64px; height:64px; float:right; margin-top:-48px; }
